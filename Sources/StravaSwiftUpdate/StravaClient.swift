@@ -82,7 +82,7 @@ extension StravaClient {
 }
 
 //MARK : - Auth
-
+@available(iOSApplicationExtension, unavailable)
 extension StravaClient: ASWebAuthenticationPresentationContextProviding {
 
     var currentWindow: UIWindow? { return UIApplication.shared.keyWindow }
